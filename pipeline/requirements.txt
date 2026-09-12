@@ -1,0 +1,6 @@
+# Dependencias base
+opencv-python-headless
+fastapi
+uvicorn
+# ultalytics # Descomentar para YOLO
+# easyocr # Descomentar para EasyOCR
