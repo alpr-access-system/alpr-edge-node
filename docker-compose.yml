@@ -11,8 +11,8 @@ services:
     # Configuración para usar dispositivos (cámara) en Docker (Linux/WSL)
     # Si la cámara en Windows no conecta directo, puede requerir configuraciones adicionales 
     # de red RTSP o uso de apps como IP Webcam
-    devices:
-      - /dev/video0:/dev/video0
+#    devices:
+#      - /dev/video0:/dev/video0
     environment:
       - PYTHONUNBUFFERED=1
 

@@ -5,7 +5,7 @@ from ocr import TextExtractor
 from validator import validate_plate
 
 def main():
-    print("Iniciando ALPR Pipeline...")
+    print("Iniciando ALPR Pipeline... ¡El entorno está listo!")
     detector = PlateDetector()
     ocr = TextExtractor()
     
