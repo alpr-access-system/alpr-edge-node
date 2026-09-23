@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node (dashboard)
+node_modules/
+dist/
+
+# Secretos / configuración local
+.env
+.env.*
+!.env.example
+
+# Datos locales: modelos, BD SQLite, videos de prueba
+data/*
+!data/.keep
+*.pt
+*.onnx
+*.db
+*.db-wal
+*.db-shm
+
+# IDE / SO
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
