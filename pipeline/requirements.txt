@@ -1,6 +1,7 @@
-# Dependencias base
-opencv-python-headless
-fastapi
-uvicorn
-# ultalytics # Descomentar para YOLO
-# easyocr # Descomentar para EasyOCR
+# Dependencias base (versiones fijas para que local y Docker instalen lo mismo)
+opencv-python-headless==5.0.0.93
+numpy==2.4.6
+fastapi==0.141.1
+uvicorn==0.53.0
+# ultralytics # Descomentar para YOLO (issue #3)
+# easyocr # Descomentar para EasyOCR (issue #4)
